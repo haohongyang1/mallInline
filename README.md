@@ -5,6 +5,9 @@
 ## Build Setup
 
 ``` bash
+# install
+$ npx create-nuxt-app
+
 # install dependencies
 $ npm install
 
@@ -20,3 +23,11 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+
+# specification
+
+page名：mallInline.vue
+component名：MallInline.vue
+类名：mall-inline
+const：MALLINLINE
+变量名：oMallInline:[]
