@@ -1,6 +1,6 @@
 # mallInline
 
-> My groovy Nuxt.js project
+> My groovy Nuxt.js project, a project for mall inline.
 
 ## Build Setup
 
@@ -25,9 +25,10 @@ $ npm run generate
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
 
 # specification
-
-page名：mallInline.vue
-component名：MallInline.vue
-类名：mall-inline
-const：MALLINLINE
-变量名：oMallInline:[]
+```bash
+1.page名：mallInline.vue
+2.component名：MallInline.vue
+3.类名：mall-inline
+4.const：MALLINLINE
+5.变量名：oMallInline:[]
+```

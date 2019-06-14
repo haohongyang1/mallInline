@@ -1,6 +1,6 @@
 <template>
   <section class="container">
-    <div>
+    <!-- <div>
       <logo />
       <h1 class="title">
         mallInline
@@ -19,8 +19,8 @@
           target="_blank"
           class="button--grey"
         >GitHub</a>
-      </div>
-    </div>
+      </div> -->
+    <!-- </div> -->
   </section>
 </template>
 

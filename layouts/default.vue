@@ -1,55 +1,45 @@
 <template>
-  <div>
-    <nuxt />
-  </div>
+<!-- 默认布局 -->
+  <section class="default-container">
+    <article class="top-template">
+      <ul>
+        <li>
+          <i class="icon el-icon-house"></i>
+          <nuxt-link to="/home">首页</nuxt-link>
+        </li>
+        <li>
+          <i class="icon el-icon-shopping-bag-1"></i>
+          <nuxt-link to="/mall">商城</nuxt-link>
+        </li>
+        <li>
+          <i class="icon el-icon-coordinate"></i>
+          <nuxt-link to="/personal">个性化推荐</nuxt-link>
+        </li>
+      </ul>
+    </article>
+    <article class="content-file">
+      <nuxt />
+    </article>
+  </section>
 </template>
-
-<style>
-html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  margin: 0;
-}
-
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
-
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
-}
+<style lang="stylus" scoped>
+.default-container
+  ul
+    list-style none
+    li
+      float right 
+  a
+    text-decoration none
+    color #959595
+  .top-template
+    display flex
+    flex-direction column
+    justify-content flex-end
+    border-bottom solid 1px #cdcdcd
+    li
+      border-right 1px solid #cdcdcd
+      padding-right 5px
+      margin-right 5px
+      .icon
+        color #D97F97
 </style>
